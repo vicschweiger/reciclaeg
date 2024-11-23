@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Recicla EG{% endblock %}
+
+{% block content %}
+<section class="index">
+    <div>
+        <h2>"Conectando Comunidades para um Futuro Sustentável"
+        </h2>
+        <p>
+            Vivemos em tempos onde cuidar do meio ambiente é uma responsabilidade de todos. Este site foi criado para facilitar o cadastro e o acesso a pontos de coleta de reciclagem em nossa comunidade. Aqui, você encontrará locais para descartar resíduos de forma consciente e também poderá registrar sua residência como um ponto de coleta.
+            Vamos juntos transformar a maneira como convivemos, cuidando da nossa cidade e promovendo práticas sustentáveis. Faça parte dessa mudança! 
+        </p>
+    </div>
+    <img src="{{ url_for('static', filename='images/lixeiras.jpeg') }}" alt="Imagem de lixeiras de reciclagem" />
+</section>
+{% endblock %}

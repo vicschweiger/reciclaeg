@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Início - Recicla EG{% endblock %}
+
+{% block content %}
+<section class="start">
+    <div>
+        <a href="{{ url_for('colaborador') }}" >
+            <button>Cadastrar Colaborador
+            </button>
+        </a>
+        <a href="{{ url_for('coletor') }}" >
+            <button>Cadastrar Coletor
+            </button>
+        </a>
+    </div>
+    <img src="{{ url_for('static', filename='images/pessoas.webp') }}" 
+    alt="Imagem de pessoas com lixeiras de reciclagem" />
+</section>
+{% endblock %}

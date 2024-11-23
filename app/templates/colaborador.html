@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Cadastrar Colaborador - Recicla EG{% endblock %}
+
+{% block content %}
+<section class="colaborador">
+    <div>
+        <h2>Cadastrar Colaborador
+        </h2>
+        <form action="/cadastrar_colaborador" method="POST">
+            <label for=name>Nome: </label>
+            <input type="text" id="name" name="name" required />
+            <label for=street>Logradouro: </label>
+            <input type="text" id="street" name="street" required />
+            <label for=number>Número: </label>
+            <input type="text" id="number" name="number" required />
+            <input type="submit" value="Cadastrar" />
+        </form>
+    </div>
+    <img src="{{ url_for('static', filename='images/pessoas.webp') }}" 
+    alt="Imagem de pessoas com lixeiras de reciclagem" />
+</section>
+{% endblock %}

@@ -1,0 +1,26 @@
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10rem;
+}
+
+.start button{
+    font-family: var(--parkinsans);
+    font-size: 2rem;
+    border-radius: 5px;
+    border-color: var(--verde-escuro);
+    background-color: var(--branco);
+    color: var(--verde-escuro);
+}
+
+
+.start img{
+    width: 50vw;
+}

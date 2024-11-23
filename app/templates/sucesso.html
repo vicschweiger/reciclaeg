@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Sucesso - Recicla EG{% endblock %}
+
+{% block content %}
+<section class="sucesso">
+    <h2>Cadastro concluído com sucesso!
+    </h2>
+    <img src="{{ url_for('static', filename='images/pessoas.webp') }}" 
+    alt="Imagem de pessoas com lixeiras de reciclagem" />
+</section>
+{% endblock %}

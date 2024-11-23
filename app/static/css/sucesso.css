@@ -1,0 +1,15 @@
+.sucesso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sucesso h2 {
+    font-size: 3rem;
+    font-family: var(--roboto);
+    padding: 2rem;
+}
+
+.sucesso img{
+    width: 50vw;
+}

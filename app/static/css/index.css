@@ -1,0 +1,24 @@
+.index {
+    display: flex;
+}
+
+.index div{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 1.75rem;
+}
+
+.index h2{
+    font-size: 3rem;
+    font-family: var(--roboto)
+}
+
+.index p {
+    font-size: 1.25rem;
+    font-family: var(--roboto);
+    line-height: 1.2;
+}
+.index img{
+    width: 50vw;
+}
