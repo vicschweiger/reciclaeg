@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 2rem;
     background-color: var(--verde-claro);
+    padding: 1rem;
 }
 
 .header a{
